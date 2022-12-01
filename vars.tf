@@ -1,0 +1,9 @@
+variable availability_domain--clNq-US-ASHBURN-AD-3 { default = "clNq:US-ASHBURN-AD-3" }
+variable fault_domain--FAULT-DOMAIN-3 { default = "FAULT-DOMAIN-3" }
+variable region { default = "us-ashburn-1" }
+variable oci_core_instance--source_details-source_id--export_kentjsubt01_1 { default = "ocid1.image.oc1.iad.aaaaaaaaorro6lk6mljfs3dafptdskbupyjjbindwgqc6nf4ohbe3ucklrqq" }
+variable availability_domain--clNq-US-ASHBURN-AD-1 { default = "clNq:US-ASHBURN-AD-1" }
+variable availability_domain--clNq-US-ASHBURN-AD-2 { default = "clNq:US-ASHBURN-AD-2" }
+variable compartment_ocid { default = "ocid1.compartment.oc1..aaaaaaaaajog445tn7gldsjs5brfum4wctrgwxwnhze3w5i4ycsxzui4exna" }
+variable oci_core_instance--source_details-source_id--export_kentemsp01_1 { default = "ocid1.image.oc1.iad.aaaaaaaaorro6lk6mljfs3dafptdskbupyjjbindwgqc6nf4ohbe3ucklrqq" }
+variable oci_core_instance--source_details-source_id--export_kentjsubp01_1 { default = "ocid1.image.oc1.iad.aaaaaaaaorro6lk6mljfs3dafptdskbupyjjbindwgqc6nf4ohbe3ucklrqq" }
