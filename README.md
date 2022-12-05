@@ -4,8 +4,8 @@ The purpose of this code is to demonstrate the correct practices to generate a t
 write the state to a storage bucket within OCI.
 
 By: Hank Wojteczko
-    Practice Manager - Cloud Professional Services
-    David Kent Consulting, Inc., 
+    Practice Manager - Cloud Professional Services, 
+    David Kent Consulting, Inc.
     hankwojteczko@davidkentconsulting.com
 
 Created On: 05-December-2022
