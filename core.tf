@@ -6,8 +6,9 @@ resource oci_core_drg export_dbs_drg {
   }
   display_name = "dbs_drg"
   freeform_tags = {
-    "Environment" = "Production"
-    "Platform"    = "Managed by Terraform"
+    "Environment"       = "Production"
+    "Platform"          = "Managed by Terraform"
+    "accounting_code"   = "ITS"
   }
 }
 
