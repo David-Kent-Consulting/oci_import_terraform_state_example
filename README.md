@@ -69,12 +69,11 @@ PROCEDURE
 6. Test OCI connectivity with 'oci iam user list'
 7. Test the Terraform OCI plug-in with 'tf-oci' and verify that the version 4.100.0 prints to standard out.
 8. Modify the .bash_profile file as shown below:
-   
-export TF_VAR_tenancy_ocid=<your tenancy ODIC>
-export TF_VAR_user_ocid=<service user OCID>
-export TF_VAR_fingerprint=<fingerprint of the API key created in step 4>
-export TF_VAR_private_key_path=~/.oci
-export TF_VAR_region=<region where this terraform code will pull the state from>
+   "export TF_VAR_tenancy_ocid=<your tenancy ODIC>"
+   "export TF_VAR_user_ocid=<service user OCID>"
+   "export TF_VAR_fingerprint=<fingerprint of the API key created in step 4>"
+   "export TF_VAR_private_key_path=~/.oci"
+   "export TF_VAR_region=<region where this terraform code will pull the state from>"
 9.  Get the compartment's OCID and export it as a memory variable in the shell, such as child_compartment
 10. Create a directory and change to it.
 11. Create a storage bucket in OCI.
