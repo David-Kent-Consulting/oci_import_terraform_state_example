@@ -14,7 +14,7 @@ Last Modified: n/a
 
 LICENSE REQUIREMENTS
 ====================
-The repository is open to the community and is considered open source under the GNU General Public License Agreement. The programs contained herein are free software; you can redistribute it and/or modify them under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This code is provided without warranty.
+The repository is open to the community and is considered open source under the GNU General Public License Agreement. The programs contained herein are free software; you can redistribute it and/or modify under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This code is provided without warranty.
 You agree by using this code that you do so at your own risk.
 
 WARNING!
@@ -50,7 +50,8 @@ FILES IN THIS REPOSITORY
 PROCEDURE
 =========
 1. Build the docker container image using the supplied Dockerfile. Make sure the terraform.zip file you
-   downloaded from hashicorp is located in the same directory as the Dockerfile.
+   downloaded from hashicorp is located in the same directory as the Dockerfile or use the supplied
+   zip file.
 2. Start the container image.
 3. Establish a shell to the container image.
 4. Run 'oci setup config' and create the PEM files.
