@@ -20,7 +20,7 @@ You agree by using this code that you do so at your own risk.
 WARNING!
 ========
 Users of this code and/or examples should have at least intermediate experience working with Terraform, and advanced experience working with 
-OCI. Incorrect use of Terraform, loss of the terrafor state file, and incorrect use of credentials could cause irrevocable and unrepairable 
+OCI. Incorrect use of Terraform, loss of the terraform state file, and incorrect use of credentials could cause irrevocable and unrepairable 
 damage to cloud resources. Be certain that you take appropriate measures to protect your cloud systems (backups, documentation, etc.) prior 
 to use of this example. We also highly advocate that you practice in a sandbox tenancy prior to using this example and/or code to
 generate a terraform state in production.
@@ -69,6 +69,7 @@ PROCEDURE
 6. Test OCI connectivity with 'oci iam user list'
 7. Test the Terraform OCI plug-in with 'tf-oci' and verify that the version 4.100.0 prints to standard out.
 8. Modify the .bash_profile file as shown below:
+   
    export TF_VAR_tenancy_ocid=<your tenancy ODIC>
    export TF_VAR_user_ocid=<service user OCID>
    export TF_VAR_fingerprint=<fingerprint of the API key created in step 4>
