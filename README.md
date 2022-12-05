@@ -8,6 +8,10 @@ By: Hank Wojteczko
     David Kent Consulting, Inc.
     hankwojteczko@davidkentconsulting.com
 
+Created On: 05-December-2022
+
+Last Modified: n/a
+
 LICENSE REQUIREMENTS
 ====================
 The repository is open to the community and is considered open source under the GNU General Public License Agreement. The programs contained herein are free software; you can redistribute it and/or modify them under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This code is provided without warranty.
@@ -18,7 +22,8 @@ WARNING!
 Users of this code and/or examples should have at least intermediate experience working with Terraform, and advanced experience working with 
 OCI. Incorrect use of Terraform, loss of the terrafor state file, and incorrect use of credentials could cause irrevocable and unrepairable 
 damage to cloud resources. Be certain that you take appropriate measures to protect your cloud systems (backups, documentation, etc.) prior 
-to use of this example. We also highly advocate that you practice in a sandbox tenancy prior to using this example and/or code.
+to use of this example. We also highly advocate that you practice in a sandbox tenancy prior to using this example and/or code to
+generate a terraform state in production.
 
 REQUIREMENTS
 ============
@@ -92,4 +97,23 @@ PROCEDURE
             starting/stopping resources. Damage to cloud resources and corruption to the terraform
             state key file may result from such actions.
 
+REFERENCES
+==========
 
+Install Docker:
+https://docs.docker.com/engine/install/
+
+Get Started with OCI CLI
+https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm
+
+Setup OCI for Terraform
+https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/tf-provider/01-summary.htm 
+
+OCI Terraform plug-in to use for resource discovery
+https://registry.terraform.io/providers/oracle/oci/latest/docs/guides/resource_discovery#use-cases-and-benefits
+
+OCI SDK for Python
+https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/pythonsdk.htm
+
+Hashicorp Terraform Downloads
+https://developer.hashicorp.com/terraform/downloads
