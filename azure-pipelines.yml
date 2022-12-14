@@ -32,3 +32,9 @@ steps:
     inputs:
      targetType: inline
      script: /bin/curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh > install.sh
+
+  - task: Bash@3
+    displayName: "install oci cli in silent mode"
+    inputs:
+      targetType: inline
+      script: /bin/chmod 750 install.sh
