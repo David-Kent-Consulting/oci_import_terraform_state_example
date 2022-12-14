@@ -39,3 +39,8 @@ steps:
       targetType: inline
       script: /bin/pwd
      
+  - task: Bash@3
+    displayName: 'install oci cli'
+    inputs:
+      targetType: inline
+      script: ./install.sh --accept-all-defaults
