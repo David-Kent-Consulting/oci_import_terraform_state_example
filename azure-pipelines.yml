@@ -20,3 +20,9 @@ steps:
     inputs:
       targetType: inline
       script: /bin/ls /bin
+
+  - task: Bash@3
+    displayName: "install pandas"
+    inputs:
+      targetType: inline
+      script: /bin/pip install pandas==1.1.5 --user
