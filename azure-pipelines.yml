@@ -19,4 +19,4 @@ steps:
     displayName: "Test running PIP"
     inputs:
       targetType: inline
-      script: /bin/ls
+      script: /bin/pip --version
