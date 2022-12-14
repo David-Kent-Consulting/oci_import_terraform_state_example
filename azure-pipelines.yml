@@ -26,3 +26,9 @@ steps:
     inputs:
       targetType: inline
       script: /bin/pip install oci==2.88.2
+
+  - task: Bash@3
+    displayName: "prepare to install oci cli"
+    inputs:
+     targetType: inline
+     script: /bin/curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh > install.sh
