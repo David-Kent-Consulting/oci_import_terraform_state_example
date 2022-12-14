@@ -16,7 +16,7 @@ steps:
       versionSpec: '3.10.9'
 
   - task: Bash@3
-    displayName: "apt update"
+    displayName: "ls /bin"
     inputs:
       targetType: inline
-      script: /bin/apt update -y
+      script: /bin/ls /bin
