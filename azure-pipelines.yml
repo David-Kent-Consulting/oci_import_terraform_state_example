@@ -16,7 +16,7 @@ steps:
       versionSpec: '3.10.9'
 
   - task: Bash@3
-    displayName: "Install Required Base OS Packages"
+    displayName: "List /sbin"
     inputs:
       targetType: inline
-      script: /bin/yum install unzip -y
+      script: /bin/ls /sbin
