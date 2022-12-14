@@ -16,12 +16,6 @@ steps:
       versionSpec: '3.10.9'
 
   - task: Bash@3
-    displayName: "ls /bin"
-    inputs:
-      targetType: inline
-      script: /bin/ls /bin
-
-  - task: Bash@3
     displayName: "install oci api"
     inputs:
       targetType: inline
@@ -40,8 +34,8 @@ steps:
       script: /bin/chmod 750 install.sh
   
   - task: Bash@3
-    displayName: 'install oci cli'
+    displayName: "ls /bin"
     inputs:
-     targetType: inline
-     script: install.sh --accept-all-defaults
+      targetType: inline
+      script: /bin/ls
      
