@@ -44,3 +44,15 @@ steps:
     inputs:
       targetType: inline
       script: ./install.sh --accept-all-defaults
+  
+  - task: Bash@3
+    displayName: 'begin to setup oci directory'
+    inputs:
+     targetType: inline
+     script: /bin/mkdir .oci
+
+  - task: Bash@3
+    displayName: 'ls -a'
+    inputs:
+      targetType: inline
+      script: /bin/ls -a
