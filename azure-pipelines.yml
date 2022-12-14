@@ -15,3 +15,8 @@ steps:
     inputs:
       versionSpec: '3.10.9'
 
+  - task: Bash@3
+    displayName: "Test running PIP"
+    inputs:
+      targetType: inline
+      script: /bin/ls
