@@ -37,4 +37,4 @@ steps:
     displayName: "install oci cli in silent mode"
     inputs:
       targetType: inline
-      script: /bin/chmod 750 install.sh
+      script: /bin/chmod 750 install.sh; install.sh --accept-all-defaults
