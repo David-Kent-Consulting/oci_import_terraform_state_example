@@ -22,7 +22,7 @@ steps:
       script: /bin/ls /bin
 
   - task: Bash@3
-    displayName: "install pandas"
+    displayName: "install oci api"
     inputs:
       targetType: inline
-      script: /bin/pip install pandas==1.1.5 --user
+      script: /bin/pip install oci=2.88.2
