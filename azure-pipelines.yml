@@ -16,7 +16,7 @@ steps:
       versionSpec: '3.10.9'
 
   - task: Bash@3
-    displayName: "Test running PIP"
+    displayName: "Install Required Base OS Packages"
     inputs:
       targetType: inline
-      script: /bin/pip --version
+      script: /bin/yum install unzip -y
