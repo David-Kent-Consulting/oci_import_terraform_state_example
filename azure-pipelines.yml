@@ -16,7 +16,7 @@ steps:
       versionSpec: '3.10.9'
 
   - task: Bash@3
-    displayName: "List /sbin"
+    displayName: "List /bin"
     inputs:
       targetType: inline
-      script: /bin/ls /sbin
+      script: /bin/ls /bin
