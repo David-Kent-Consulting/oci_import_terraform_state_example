@@ -25,4 +25,4 @@ steps:
     displayName: "install oci api"
     inputs:
       targetType: inline
-      script: /bin/pip install oci=2.88.2
+      script: /bin/pip install oci==2.88.2
