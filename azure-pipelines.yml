@@ -34,8 +34,8 @@ steps:
       script: /bin/chmod 750 install.sh
   
   - task: Bash@3
-    displayName: "ls /bin"
+    displayName: "pwd"
     inputs:
       targetType: inline
-      script: /bin/ls
+      script: /bin/pwd
      
