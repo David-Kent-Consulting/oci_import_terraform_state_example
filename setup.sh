@@ -7,4 +7,4 @@
 /bin/ls -la $HOME
 
 # test the oci cli tools
-/bin/ls /home/vsts/lib/oracle-cli
+/bin/ls /home/vsts/lib/oracle-cli/bin
