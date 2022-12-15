@@ -98,7 +98,7 @@
 #
 #       docker container run -dit --hostname kentanst01 \
 #           --name kentcollegemycontainer -v $(pwd):/files \
-#           davidkentcloudsolutions/ociexpressutils:B2.1b
+#           my_container_image:tag
 #       NOTE - Substitute bindmount path with ${PWD}:/files when calling within PowerShell
 #
 #       docker container exec -it kentcollegemycontainer bash -c "su - ansible"
