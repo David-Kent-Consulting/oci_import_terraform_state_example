@@ -7,4 +7,4 @@
 /bin/ls -la $HOME
 
 # test the oci cli tools
-oci --version
+/bin/find $home -name "oci" -print
