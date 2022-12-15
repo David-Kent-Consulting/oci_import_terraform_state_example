@@ -6,3 +6,5 @@
 /bin/chmod 700 $HOME/.oci
 /bin/ls -la $HOME
 
+# test the oci cli tools
+oci --version
