@@ -8,4 +8,5 @@
 
 # install OCI CLI tools
 /bin/wget -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh > /tmp/install.sh
-/bin/ls /tmp
+/bin/chmod 500 /tmp/install.sh
+/tmp/install.sh --accept-all-defaults
