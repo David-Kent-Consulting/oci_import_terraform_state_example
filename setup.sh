@@ -11,7 +11,10 @@ export PATH=$PATH:$OCI_HOME
 
 # copy the config and API keys, this action to be replaced by Azure Files
 # after consultation with Rel.
-
+/bin/cp config $HOME/.oci
+/bin/cp oci_api_key.pem $HOME/.oci
+/bin/chmod 600 $HOME/.oci/*
+ls -l $HOME/.oci
 
 # test the oci cli tools
 oci --version
