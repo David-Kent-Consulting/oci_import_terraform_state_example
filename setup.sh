@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# where am i
+pwd
+
 # this is set by Az DevOps, user must be vsts
 export OCI_HOME=/home/vsts/lib/oracle-cli/bin
 export PATH=$PATH:$OCI_HOME:$TF_HOME
