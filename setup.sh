@@ -30,7 +30,10 @@ cd $HOME/bin
 /bin/unzip terraform.zip
 /bin/rm terraform.zip
 /bin/ls -l $HOME/bin
+# had to hard code this, shell was ignoring $PWD on changedir
 cd /home/vsts/work/1/s
 pwd
 terraform --version
 terraform init
+terraform validate
+terraform plan
