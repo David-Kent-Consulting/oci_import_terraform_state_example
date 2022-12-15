@@ -46,8 +46,13 @@ steps:
       script: ./install.sh --accept-all-defaults
   
   - task: Bash@3
-    displayName: 'test install oci script'
+    displayName: 'set install oci script'
     inputs:
       targetType: inline
       script: /bin/chmod 500 setup.sh
-      
+
+  - task: Bash@3
+    displayName: 'run the oci setup script'
+    inputs:
+      targetType: inline
+      script: setup.sh
