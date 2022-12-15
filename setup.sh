@@ -18,4 +18,4 @@ ls -l $HOME/.oci
 
 # test the oci cli tools
 oci --version
-
+oci iam user list
