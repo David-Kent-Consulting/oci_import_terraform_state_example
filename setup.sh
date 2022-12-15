@@ -28,3 +28,4 @@ cd $HOME/bin
 /bin/rm terraform.zip
 cd $PWD
 /bin/ls -l $HOME/bin
+terraform --version
