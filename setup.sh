@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo $HOME
+/bin/mkdir $HOME/.oci
+/bin/chmod 700 $HOME/.oci
+/bin/ls -la $HOME
