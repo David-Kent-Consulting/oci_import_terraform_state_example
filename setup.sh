@@ -2,7 +2,7 @@
 
 # where am i
 pwd
-$PWD='/home/vsts/work/1/s'
+PWD='/home/vsts/work/1/s'
 
 # this is set by Az DevOps, user must be vsts
 export OCI_HOME=/home/vsts/lib/oracle-cli/bin
