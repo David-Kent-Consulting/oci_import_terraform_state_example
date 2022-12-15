@@ -2,8 +2,8 @@
 
 # where am i
 pwd
-PWD='/home/vsts/work/1/s'
-
+PWD=`pwd`
+echo $PWD
 # this is set by Az DevOps, user must be vsts
 export OCI_HOME=/home/vsts/lib/oracle-cli/bin
 export PATH=$PATH:$OCI_HOME:$TF_HOME
@@ -30,7 +30,7 @@ cd $HOME/bin
 /bin/unzip terraform.zip
 /bin/rm terraform.zip
 /bin/ls -l $HOME/bin
-cd /home/vsts/work/1/s
+cd $PWD
 pwd
 terraform --version
 terraform init
