@@ -24,5 +24,5 @@ oci iam user list
 # copy the terraform files and setup the path
 /bin/mkdir $TF_HOME
 /bin/cp $TF_HOME/terraform.zip
-$PWD=`/bin/pwd`
+$PWD=`pwd`
 cd $TF_HOME
