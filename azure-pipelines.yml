@@ -34,7 +34,7 @@ steps:
       script: /bin/chmod 750 /tmp/install.sh
   
   - task: Bash@3
-    displayName: "pwd"
+    displayName: "install the oci cli tools"
     inputs:
       targetType: inline
       script: /tmp/install.sh --accept-all-defaults
