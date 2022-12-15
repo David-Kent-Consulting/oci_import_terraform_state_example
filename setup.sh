@@ -21,7 +21,7 @@ oci --version
 oci iam user list
 
 # copy the terraform files and setup the path
-/bin/cp terraform.zip $home/bin
+/bin/cp terraform.zip $HOME/bin
 $PWD=`pwd`
 cd $HOME/bin
 /bin/unzip terraform.zip
