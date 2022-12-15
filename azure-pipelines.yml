@@ -46,13 +46,8 @@ steps:
       script: ./install.sh --accept-all-defaults
   
   - task: Bash@3
-    displayName: 'begin to setup oci directory'
-    inputs:
-     targetType: inline
-     script: /bin/mkdir .oci
-
-  - task: Bash@3
-    displayName: 'ls -a'
+    displayName: 'test install oci script'
     inputs:
       targetType: inline
-      script: /bin/ls -a
+      script: /bin/chmod 500 setup.sh
+      
