@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # this is set by Az DevOps, user must be vsts
-export OCI_HOME=/home/vsts/lib/oracle-cli/bin/oci
+export OCI_HOME=/home/vsts/lib/oracle-cli/bin
 
 # create the OCI config directory
 /bin/mkdir $HOME/.oci
