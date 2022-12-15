@@ -21,17 +21,17 @@ steps:
       targetType: inline
       script: /bin/pip install oci==2.88.2
 
-  - task: Bash@3
-    displayName: "prepare to install oci cli"
-    inputs:
-     targetType: inline
-     script: /bin/curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh > install.sh
+  # - task: Bash@3
+  #   displayName: "prepare to install oci cli"
+  #   inputs:
+  #    targetType: inline
+  #    script: /bin/curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh > install.sh
 
-  - task: Bash@3
-    displayName: "set oci cli script to 750"
-    inputs:
-      targetType: inline
-      script: /bin/chmod 750 install.sh
+  # - task: Bash@3
+  #   displayName: "set oci cli script to 750"
+  #   inputs:
+  #     targetType: inline
+  #     script: /bin/chmod 750 install.sh
   
   - task: Bash@3
     displayName: "pwd"
@@ -39,12 +39,6 @@ steps:
       targetType: inline
       script: /bin/pwd
      
-  - task: Bash@3
-    displayName: 'install oci cli'
-    inputs:
-      targetType: inline
-      script: install.sh --accept-all-defaults
-  
   - task: Bash@3
     displayName: 'set install oci script'
     inputs:
@@ -55,4 +49,4 @@ steps:
     displayName: 'run the oci setup script'
     inputs:
       targetType: inline
-      script: setup.sh
+      script: /home/vsts/work/1/s/setup.sh
