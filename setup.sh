@@ -2,7 +2,8 @@
 
 # this is set by Az DevOps, user must be vsts
 export OCI_HOME=/home/vsts/lib/oracle-cli/bin
-export PATH=$PATH:$OCI_HOME
+export TF_HOME=/home/vsts/bin
+export PATH=$PATH:$OCI_HOME:$TF_HOME
 
 # create the OCI config directory
 /bin/mkdir $HOME/.oci
@@ -19,3 +20,9 @@ ls -l $HOME/.oci
 # test the oci cli tools
 oci --version
 oci iam user list
+
+# copy the terraform files and setup the path
+/bin/mkdir $TF_HOME
+/bin/cp $HOME/terraform.zip
+$PWD=`/bin/pwd`
+/bin/cd $TF_HOME
