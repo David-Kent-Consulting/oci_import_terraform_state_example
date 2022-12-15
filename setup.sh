@@ -29,3 +29,4 @@ cd $HOME/bin
 cd $PWD
 /bin/ls -l $HOME/bin
 terraform --version
+terraform init
