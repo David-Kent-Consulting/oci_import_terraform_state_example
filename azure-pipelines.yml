@@ -46,7 +46,7 @@ steps:
       script: /bin/chmod 500 setup.sh
 
   - task: Bash@3
-    displayName: 'run the oci setup script'
+    displayName: 'run terraform apply'
     inputs:
       targetType: inline
       script: /home/vsts/work/1/s/setup.sh
