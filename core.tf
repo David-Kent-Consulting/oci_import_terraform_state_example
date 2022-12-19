@@ -302,7 +302,7 @@ resource oci_core_instance export_kentemst01_1 {
     source_id   = var.oci_core_instance--source_details-source_id--export_kentemst01_1
     source_type = "image"
   }
-  state = "STOPPED"
+  state = "RUNNING"
 }
 
 resource oci_core_default_dhcp_options export_Default-DHCP-Options-for-dbs_vcn {
