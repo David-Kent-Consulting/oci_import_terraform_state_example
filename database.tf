@@ -5,6 +5,9 @@ resource oci_database_pluggable_database export_pluggable_database_1 {
   defined_tags = {
   }
   freeform_tags = {
+    platform      = "Managed by Terraform"
+    environment   = "dev"
+    account_code  = "ITS"
   }
   #pdb_admin_password = <<Optional value not found in discovery>>
   pdb_name = "KENTPDBT01"
