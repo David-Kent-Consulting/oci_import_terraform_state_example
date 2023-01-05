@@ -27,4 +27,3 @@ resource oci_file_storage_export export_export_2 {
   file_system_id = "ocid1.filesystem.oc1.iad.aaaaaaaaaabgqyzznfqwillqojxwiotjmfsc2ylefuzqaaaa"
   path           = "/kentnfsp01"
 }
-
