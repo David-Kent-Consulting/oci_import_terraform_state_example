@@ -21,7 +21,7 @@ resource oci_database_db_system export_kentcdbt01 {
   #backup_subnet_id = <<Optional value not found in discovery>>
   #cluster_name = <<Optional value not found in discovery>>
   compartment_id = var.compartment_ocid
-  cpu_core_count = "2"
+  cpu_core_count = "1"
   data_collection_options {
     is_diagnostics_events_enabled = "false"
     is_health_monitoring_enabled  = "false"
