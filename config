@@ -1,6 +1,0 @@
-[DEFAULT]
-user=ocid1.user.oc1..aaaaaaaamkkonq6ae7ubthu47oqyaz4awarhrzwa3t3qlvev3wxjrnultgtq
-fingerprint=11:0d:7e:82:5d:fa:34:64:bb:75:49:d5:06:53:56:23
-key_file=/home/vsts/.oci/oci_api_key.pem
-tenancy=ocid1.tenancy.oc1..aaaaaaaaoqsm6s5l4fgiurqfj6kgjewdeiesxzzgr5zyjmwiterd3qdfacfa
-region=us-ashburn-1
